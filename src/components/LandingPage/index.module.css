@@ -1,0 +1,123 @@
+.sesion,
+.sesion_intro {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ea3d44;
+  display: flex;
+  position: relative;
+}
+
+.mas_mas,
+.img_bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 75%;
+  z-index: 1;
+}
+
+.img_car {
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  height: 70%;
+  z-index: 2;
+}
+
+.mas_mas_caption,
+.caption {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  color: #fff;
+  top: 27%;
+  left: 8rem;
+  font-size: 65px;
+  font-weight: bold;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.btn {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 1rem;
+  bottom: 30%;
+  left: 8rem;
+  padding: 1rem 2rem;
+  font-size: 42px;
+  font-weight: bold;
+  color: #ea3d44;
+}
+
+.sesion_intro {
+  background-color: #fff;
+}
+
+.mas_mas {
+  height: 90%;
+}
+
+.mas_mas_caption {
+  color: #ea3d44;
+  top: 20%;
+}
+
+.text {
+  position: absolute;
+  left: 8rem;
+  width: 50%;
+  bottom: 20%;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #000;
+  font-size: 42px;
+}
+
+.why {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ea3d44;
+  display: flex;
+  flex-direction: column;
+}
+
+.why_title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  min-width: 96%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 25%;
+  margin: 1rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  word-wrap: break-word;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.ket {
+  color: #fff;
+  font-size: 18px;
+  word-wrap: break-word;
+  overflow: hidden;
+}

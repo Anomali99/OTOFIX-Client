@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #ea3d44;
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  height: 97px;
+  padding: 1rem 3rem;
+  align-items: center;
+  z-index: 999;
+  position: fixed;
+}
+
+.img {
+  width: 246px;
+  height: 68px;
+  margin-right: auto;
+}
+
+.menu_container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  color: #fff;
+  font-size: 24px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.grid {
+  color: #fff;
+  font-size: 24px;
+  margin: 1rem;
+}

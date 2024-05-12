@@ -36,8 +36,7 @@
   text-decoration: underline #000;
 }
 
-.email,
-.password {
+.input {
   background-color: #fff;
   border: none;
   border-radius: 0.5rem;
@@ -53,6 +52,7 @@
   color: #000;
   cursor: pointer;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .text1 {

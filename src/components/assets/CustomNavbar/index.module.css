@@ -35,3 +35,43 @@
   font-size: 24px;
   margin: 1rem;
 }
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+/* @media (max-width: 768px) {
+} */
+
+/* Mobile */
+@media (max-width: 450px) {
+  .navbar {
+    width: 100vw;
+    height: max-content;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .img {
+    width: 82px;
+    height: 23px;
+  }
+
+  .menu {
+    font-size: 7px;
+    margin: 0.25rem;
+  }
+
+  .grid {
+    font-size: 7px;
+    margin: 0.5rem;
+  }
+
+  .indo {
+    width: 30px;
+  }
+}

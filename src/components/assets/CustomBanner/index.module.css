@@ -30,3 +30,45 @@
   left: 1.5rem;
   bottom: 1.5rem;
 }
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+/* @media (max-width: 768px) {
+} */
+
+/* Mobile */
+@media (max-width: 450px) {
+  .container {
+    display: flex;
+    position: relative;
+    background-color: #ea3d44;
+    width: 100vw;
+    height: 40vh;
+    bottom: 0;
+  }
+
+  .banner_bg {
+    top: 0;
+    left: 0;
+    height: 70%;
+  }
+
+  .banner_icon {
+    height: 50%;
+  }
+
+  .mas_mas {
+    height: 90%;
+  }
+
+  .otofix_logo {
+    height: 10%;
+  }
+}

@@ -90,3 +90,81 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+/* @media (max-width: 768px) {
+} */
+
+/* Mobile */
+@media (max-width: 450px) {
+  .container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .form_container {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .login {
+    font-size: 18px;
+  }
+
+  .input {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .text1,
+  .text2 {
+    margin-top: 0.5rem;
+    font-size: 8px;
+  }
+
+  .btn,
+  .btn_google {
+    border-radius: 0.5rem;
+    font-size: 12px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .btn_google {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  .label {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .input_row {
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 0rem;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

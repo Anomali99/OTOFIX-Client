@@ -66,7 +66,6 @@
   background-color: #ea3d44;
   color: #fff;
   border-radius: 0.5rem;
-  margin-top: 1rem;
   width: 40%;
   font-size: 32px;
   padding: 1rem;
@@ -83,4 +82,65 @@
 
 .google {
   margin-right: 1rem;
+}
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+/* @media (max-width: 768px) {
+} */
+
+/* Mobile */
+@media (max-width: 450px) {
+  .container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .form_container {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .login {
+    font-size: 18px;
+  }
+
+  .input {
+    margin-top: 0.5rem;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .text1,
+  .text2 {
+    margin-top: 0.5rem;
+    font-size: 8px;
+  }
+
+  .text1 {
+    width: 75%;
+  }
+
+  .btn,
+  .btn_google {
+    border-radius: 0.5rem;
+    font-size: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .btn_google {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 8px;
+  }
 }

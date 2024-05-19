@@ -19,7 +19,7 @@ const CustomNavbar = () => {
         <Link className={styles.menu} to="/register">
           Daftar
         </Link>
-        <img src={indo_flag} alt="" />
+        <img className={styles.indo} src={indo_flag} alt="" />
       </div>
     </div>
   );

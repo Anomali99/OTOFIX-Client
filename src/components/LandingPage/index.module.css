@@ -121,3 +121,107 @@
   word-wrap: break-word;
   overflow: hidden;
 }
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+/* @media (max-width: 768px) {
+} */
+
+/* Mobile */
+@media (max-width: 450px) {
+  .mas_mas,
+  .img_bg {
+    bottom: 0;
+    right: 0;
+    height: 50%;
+  }
+
+  .img_car {
+    position: absolute;
+    bottom: 0;
+    right: -1rem;
+    height: 30%;
+  }
+
+  .mas_mas_caption,
+  .caption {
+    width: 90%;
+    z-index: 3;
+    top: 10%;
+    left: 2rem;
+    font-size: 21px;
+  }
+
+  .btn {
+    border-radius: 1rem;
+    bottom: auto;
+    top: 25%;
+    left: 2rem;
+    padding: 1rem 2rem;
+    font-size: 10px;
+  }
+
+  .mas_mas {
+    height: 70%;
+    left: -1rem;
+  }
+
+  .mas_mas_caption {
+    top: 5%;
+  }
+
+  .text {
+    left: 2rem;
+    width: 90%;
+    bottom: auto;
+    top: 20%;
+    font-size: 15px;
+  }
+
+  .why {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why_title {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .list {
+    display: block;
+    width: 96%;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+  }
+
+  .container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 96%;
+    margin: 1rem;
+  }
+
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+
+  .ket {
+    font-size: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+}

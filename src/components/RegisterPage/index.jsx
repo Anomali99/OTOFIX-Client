@@ -25,14 +25,14 @@ const RegisterPage = () => {
               />
             </div>
             <div className={styles.input_container}>
-              <label className={styles.label} htmlFor="no">
-                Nomer HP
+              <label className={styles.label} htmlFor="email">
+                Email
               </label>
               <input
                 className={styles.input}
-                id="no"
-                placeholder="Nomer HP"
-                type="number"
+                id="email"
+                placeholder="Email"
+                type="email"
               />
             </div>
           </div>
